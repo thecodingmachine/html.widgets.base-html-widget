@@ -1,6 +1,8 @@
 <?php
 namespace Mouf\Html\Widgets\BaseHtmlWidget;
 
+use Mouf\Html\HtmlElement\HtmlElementInterface;
+
 /**
  * This class represent a simple HTML element, with a condition (that can evaluate to true or false to display or hide the component).
  *
