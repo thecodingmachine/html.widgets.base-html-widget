@@ -1,6 +1,6 @@
 {
     "name": "mouf/html.widgets.base-html-widget",
-    "description": "This package contains basic widgets representing HTML tags (select, input, etc...). Each widget is fully customizable, and benefits from an "edit" mode, thanks to the basewidget package.
+    "description": "This package contains basic widgets representing HTML tags (select, input, etc...). Each widget is fully customizable, and benefits from an 'edit' mode, thanks to the basewidget package.
 	Please note this package comes with a smaple CSS file you can use as a starter.",
     "keywords": ["mouf", "html widget"],
     "homepage": "https://github.com/thecodingmachine/html.widgets.base-html-widget",
