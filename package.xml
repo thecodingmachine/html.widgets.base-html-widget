@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+	<displayName>BaseHtmlWidget</displayName>
+	<shortDescription>This package contains basic widgets representing HTML tags (select, input, etc...). Each widget is fully customizable, and benefits from an "edit" mode, thanks to the basewidget package.
+	Please note this package comes with a smaple CSS file you can use as a starter.</shortDescription>
+	<docUrl></docUrl>
+	<dependencies>
+		<dependency>
+			<group>database/datasource</group>
+			<name>datasourceinterface</name>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<group>html</group>
+			<name>htmlelement</name>
+			<version>&gt;=1.0</version>
+		</dependency>
+		<dependency>
+			<group>html/widgets</group>
+			<name>basewidget</name>
+			<version>&gt;=1.0</version>
+		</dependency>
+		<dependency>
+			<group>utils/common</group>
+			<name>getvars</name>
+			<version>&gt;=1.0</version>
+		</dependency>
+	</dependencies>
+	<requires>
+		<require>AbstractHtmlElement.php</require>
+		<require>AbstractHtmlInputWidget.php</require>
+		<require>HtmlSelectWidget.php</require>
+		<require>HtmlSelectStaticWidget.php</require>
+		<require>HtmlTextInputWidget.php</require>
+		<require>HtmlStaticTextWidget.php</require>
+		<require>HtmlPasswordInputWidget.php</require>
+		<require>HtmlHiddenInputWidget.php</require>
+		<require>HtmlCheckBoxWidget.php</require>
+		<require>HtmlCheckBoxGroupWidget.php</require>
+		<require>HtmlRadioGroupWidget.php</require>
+		<require>HtmlRadioGroupStaticWidget.php</require>
+		<require>HtmlFormTag.php</require>
+		<require>HtmlListTag.php</require>
+		<require>HtmlButtonWidget.php</require>
+		<require>HtmlI18nString.php</require>
+		<require>HtmlSimpleTemplate.php</require>
+		<require>HtmlContent.php</require>
+		<require>HtmlDivTag.php</require>
+	</requires>
+</package>
